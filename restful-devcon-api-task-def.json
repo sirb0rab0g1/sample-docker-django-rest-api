@@ -1,0 +1,18 @@
+{
+    "family": "restful-devcon-api",
+    "containerDefinitions": [
+        {
+            "name": "restful-devcon-api",
+            "image": "446349631021.dkr.ecr.us-east-1.amazonaws.com/pasmo/restfull_devcon_api",
+            "cpu": 10,
+            "memory": 500,
+            "portMappings": [
+                {
+                    "containerPort": 8000,
+                    "hostPort": 8000
+                }
+            ],
+            "essential": true
+        }
+    ]
+}
